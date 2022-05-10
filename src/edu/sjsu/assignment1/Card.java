@@ -20,7 +20,7 @@ public class Card {
         if ((rank.equals(UNKNOWN)) || suit.equals(UNKNOWN))
             description = UNKNOWN;
         else
-            description = rank + "of" + suit;
+            description = rank + " of " + suit;
     }
 
 
