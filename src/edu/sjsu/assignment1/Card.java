@@ -3,7 +3,7 @@ package edu.sjsu.assignment1;
 public class Card {
     private String description;
     private String shorthand;
-    private final String UNKNOWN = "unknown";
+    private final String UNKNOWN = "Unknown";
 
     public Card(String shorthand) {
         this.shorthand = shorthand;

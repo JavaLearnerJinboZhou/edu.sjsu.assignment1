@@ -8,7 +8,7 @@ public class MyTime {
         int time_y=Integer.parseInt(y);
 
         int hour_x = time_x/100; //get hours
-        int minu_x = time_x%100; // get minutes
+        int minu_x = time_x%100; //get minutes
 
         int hour_y = time_y/100;
         int minu_y = time_y%100;
