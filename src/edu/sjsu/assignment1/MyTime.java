@@ -16,11 +16,11 @@ public class MyTime {
         if (time_x>time_y){
             int h = (((hour_y+24)*60+minu_y) - (hour_x*60+minu_x))/60;
             int m = (((hour_y+24)*60+minu_y) - (hour_x*60+minu_x))%60;
-            System.out.printf("%d hours %d minutes", h,m);
+            System.out.printf("%d hour(s) %d minute(s)", h,m);
         }else {
             int h = ((hour_y*60+minu_y) - (hour_x*60+minu_x))/60;
             int m = ((hour_y*60+minu_y) - (hour_x*60+minu_x))%60;
-            System.out.printf("%d hours %d minutes", h,m);
+            System.out.printf("%d hour(s) %d minute(s)", h,m);
         }
     }
     public static void main(String[] args){
