@@ -1,3 +1,5 @@
+package edu.sjsu.assignment1;
+
 public class Card {
     private String description;
     private String shorthand;

@@ -1,4 +1,7 @@
+package edu.sjsu.assignment1;
+
 import java.util.Scanner;
+
 public class MyTime {
     public static void printTimeDifference(String x, String y){
         int time_x=Integer.parseInt(x); //change data type to int
